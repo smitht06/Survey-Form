@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+html,
+body{
+    background-color: darkgreen;
+    text-align: center;
+    font-family: "Droid Serif", "DejaVu Serif", "STIX", serif;
+    min-width: 302px;
+}
+header{
+    font-size: 2em;
+    font-weight:bold;
+    margin: 20px;
+}
