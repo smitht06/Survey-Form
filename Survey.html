@@ -1,4 +1,4 @@
-<h1 id="title">Survey Form</h1>
+<h1 id="title" xmlns="http://www.w3.org/1999/html">Survey Form</h1>
 <div id="for-outer">
   <p id="description">
     Please complete this form regarding your feeling about Tony's Gym
@@ -91,7 +91,16 @@
       </ul>
     </div>
   </div>
-
+    <div class="rowTab">
+      <div class="labels">
+        <label for="comments">Please leave any additional feedback below:</label>
+    </div>
+    <div class="rightTab">
+      <textarea id="comments" class="input-field" style="height:50px;resize:vertical;"
+                name="comment" placeholder="Enter your comment here.."></textarea>
+    </div>
+    </div>
+    <button id="submit" type="submit">Submit</button>
 
   </form>
-
+</div>
