@@ -1,13 +1,13 @@
 <h1 id="title">Survey Form</h1>
 <div id="for-outer">
   <p id="description">
-    Please complete this form regarding your career aspirations
+    Please complete this form regarding your feeling about Tony's Gym
     </p>
   <form id="survey-form" method="GET"
         action="https://crossorigin.me/https://freecodecamp.com">
     <div class="rowTab">
       <div class="labels">
-        <label id="namelabel">*Name:</label>
+        <label id="name-label">*Name:</label>
           </div>
       <div class="rightTab">
       <input autofocus type="text" name="name" id="name" class = "input-field"
@@ -16,7 +16,7 @@
   </div>
     <div class="rowTab">
       <div class="labels">
-        <label id="email-label" for="email">* Email: </label>
+        <label id="email-label" for="email-label">* Email: </label>
       </div>
       <div class="rightTab">
         <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
@@ -43,6 +43,7 @@
         </select>
       </div>
     </div>
+
         <div class="rowTab">
           <div class="labels">
             <label for="userRating">*How likely are you to recommend this gym to your friends?</label>
@@ -59,8 +60,38 @@
               </label></li>
 
             </ul></div>
+        </div> </div>
+        <div class="rowTab">
+          <div class="labels">
+            <label for="most-like">What kind of exercise do you do at the gym</label>
+          </div>
+        <div class="rightTab">
+          <select id="most-like" name="mostLike" class="dropdown">
+            <option selected value>Select an option</option>
+            <option value="cardio">Cardio</option>
+            <option value="Weightlifting">Weight Lifting</option>
+            <option value="Classes">Fitness Classes</option>
+          </select>
         </div>
+        </div>
+      </div>
+    </div>
+  <div class="rowTab">
+    <div class="labels">
+      <label for="Preferences">Would any of the following future potential services interest you?<br>Check all that apply:</label>
+    </div>
+    <div class="rightTab">
+      <ul id="preferences" style="list-style: none;">
+        <li class="checkbox"><label><input name="prefer"
+        value="1" type="checkbox" class="userRatings">Steam Room</label></li>
+        <li class="checkbox"><label><input name="prefer"
+        value="2" type="checkbox" class="userRatings">Swimming pool</label></li>
+        <li class="checkbox"><label><input name="prefer"
+        value="3" type="checkbox" class="userRatings">Sauna</label></li>
+      </ul>
+    </div>
+  </div>
+
 
   </form>
 
-</div>
